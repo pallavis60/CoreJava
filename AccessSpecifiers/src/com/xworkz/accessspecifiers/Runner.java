@@ -22,14 +22,9 @@ public class Runner {
 	    
 	    //calling protected variables;
 	    System.out.println(Institute.location);
-	   System.out.println(obj.branches);
+	     System.out.println(obj.branches);
 	    
-	    
-	    
-	    
-		
-		
-		
+	    	
 	
 		
 	
