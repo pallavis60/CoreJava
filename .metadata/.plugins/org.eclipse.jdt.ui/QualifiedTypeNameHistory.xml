@@ -6,4 +6,5 @@
     <fullyQualifiedTypeName name="com.xworkz.bus.constants.Type"/>
     <fullyQualifiedTypeName name="com.xworkz.classobjectmethods.family.Family"/>
     <fullyQualifiedTypeName name="com.xworkz.country.countryinfo.Country"/>
+    <fullyQualifiedTypeName name="com.xworkz.shop.dto.ShopDto"/>
 </qualifiedTypeNameHistroy>

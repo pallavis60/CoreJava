@@ -10,8 +10,8 @@ public class ShopRunner {
 	  obj.setShopName("Everly");
 	  obj.setOwnerName("Nikitha");
       obj.setStoreRelated("Cloths");
-	  obj. setShopNo(98458352);
-	  obj. setShopinauguration("june 23 2008");
+	  obj.setShopNo(98458352);
+	  obj.setShopinauguration("june 23 2008");
 	  obj.setShopingTiming("8 am to 9 pm");
 	  obj.setAddress("Bangalore");
 	  obj.setShopBuildingNo(45);
