@@ -7,4 +7,6 @@
     <fullyQualifiedTypeName name="com.xworkz.classobjectmethods.family.Family"/>
     <fullyQualifiedTypeName name="com.xworkz.country.countryinfo.Country"/>
     <fullyQualifiedTypeName name="com.xworkz.shop.dto.ShopDto"/>
+    <fullyQualifiedTypeName name="com.xworkz.school.dao.SchoolDao"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
