@@ -31,14 +31,23 @@ public class GroceriesRunner {
 
 //Calling updatedbyIndexMethod
 		obj2.updateGroceryByIndex("CHILLI POWER", 2);
+
+// Calling update by String name;
 		obj2.updateByGroceryName("Green Matar", "Maida");
 
-		// Calling deleteBy Index Method
+// Calling deleteBy Index Method
 		obj2.deleteByIndex(1);
 
 //Calling DeletedByName Method
 		obj2.DeleteByName("Chilli Powder");
 
-		obj2.read();
+// Calling search method;
+		obj2.search("Maida");
+
+// Calling reading method;
+		String[] GroceriesName = obj2.read();
+		for (int i = 0; i < GroceriesName.length; i++) {
+			System.out.println(GroceriesName[i]);
+		}
 	}
 }
