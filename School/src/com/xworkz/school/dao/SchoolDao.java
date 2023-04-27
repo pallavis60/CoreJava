@@ -11,7 +11,7 @@ public class SchoolDao {
 			System.out.println("name is valid ");
 			
 			    
-			for(int i=0; i<str.length(); i++) {
+			for(int i=0; i<studentName.length; i++) {
 				if(studentName[i]==null) {
 				
 					studentName[i]=str;

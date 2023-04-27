@@ -9,4 +9,6 @@
     <fullyQualifiedTypeName name="com.xworkz.shop.dto.ShopDto"/>
     <fullyQualifiedTypeName name="com.xworkz.school.dao.SchoolDao"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.xworkz.groceries.dto.GroceriesDto"/>
+    <fullyQualifiedTypeName name="com.xworkz.groceries.dao.GroceriesDao"/>
 </qualifiedTypeNameHistroy>
