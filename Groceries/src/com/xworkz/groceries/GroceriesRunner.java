@@ -26,7 +26,7 @@ public class GroceriesRunner {
 		obj2.addGrocery("Green Matar");
 		obj2.addGrocery("Gr");
 		obj2.addGrocery("Chilli Powder");
-		obj2.addGrocery(null);
+		obj2.addGrocery("MIlk");
 		obj2.addGrocery("Chana Dal");
 
 //Calling updatedbyIndexMethod
@@ -42,8 +42,8 @@ public class GroceriesRunner {
 		obj2.DeleteByName("Chilli Powder");
 
 // Calling search method;
-		obj2.search("Maida");
-
+		boolean result = obj2.search("MIlk");
+		System.out.println(result);
 // Calling reading method;
 		String[] GroceriesName = obj2.read();
 		for (int i = 0; i < GroceriesName.length; i++) {
