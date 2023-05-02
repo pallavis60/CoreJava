@@ -11,4 +11,7 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.xworkz.groceries.dto.GroceriesDto"/>
     <fullyQualifiedTypeName name="com.xworkz.groceries.dao.GroceriesDao"/>
+    <fullyQualifiedTypeName name="com.xworkz.resume.dao.ResumeDao"/>
+    <fullyQualifiedTypeName name="com.xworkz.resume.dto.AddressDto"/>
+    <fullyQualifiedTypeName name="com.xworkz.resume.dto.ResumeDto"/>
 </qualifiedTypeNameHistroy>
