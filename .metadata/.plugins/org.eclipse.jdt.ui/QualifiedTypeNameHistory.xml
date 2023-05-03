@@ -14,4 +14,7 @@
     <fullyQualifiedTypeName name="com.xworkz.resume.dao.ResumeDao"/>
     <fullyQualifiedTypeName name="com.xworkz.resume.dto.AddressDto"/>
     <fullyQualifiedTypeName name="com.xworkz.resume.dto.ResumeDto"/>
+    <fullyQualifiedTypeName name="com.xworkz.computer.dao.ComputerDao"/>
+    <fullyQualifiedTypeName name="com.xworkz.computer.dto.ComputerDto"/>
+    <fullyQualifiedTypeName name="com.xworkz.computer.dto.ProcessorDto"/>
 </qualifiedTypeNameHistroy>
