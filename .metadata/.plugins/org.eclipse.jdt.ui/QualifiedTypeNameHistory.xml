@@ -17,4 +17,5 @@
     <fullyQualifiedTypeName name="com.xworkz.computer.dao.ComputerDao"/>
     <fullyQualifiedTypeName name="com.xworkz.computer.dto.ComputerDto"/>
     <fullyQualifiedTypeName name="com.xworkz.computer.dto.ProcessorDto"/>
+    <fullyQualifiedTypeName name="com.xworkz.accessmodifierstwo.Car"/>
 </qualifiedTypeNameHistroy>
