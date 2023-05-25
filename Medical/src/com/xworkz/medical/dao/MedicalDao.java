@@ -20,6 +20,7 @@ public class MedicalDao {
 						System.out.println("The Dto is saved");
 						return true;
 					}
+
 				}
 			}
 			System.out.println("The given name is not valid");
@@ -49,6 +50,8 @@ public class MedicalDao {
 					}
 
 				}
+				System.out.println("The Location is not updated");
+				return false;
 
 			}
 			throw new locationIsNotValidException();
@@ -66,6 +69,7 @@ public class MedicalDao {
 					System.out.println("Deleted Successfully");
 					return true;
 				}
+				System.out.println("Name is not deleted");
 			}
 		}
 		throw new nameIsNotValidException();
