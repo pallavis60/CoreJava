@@ -18,4 +18,13 @@
     <fullyQualifiedTypeName name="com.xworkz.computer.dto.ComputerDto"/>
     <fullyQualifiedTypeName name="com.xworkz.computer.dto.ProcessorDto"/>
     <fullyQualifiedTypeName name="com.xworkz.accessmodifierstwo.Car"/>
+    <fullyQualifiedTypeName name="com.xworkz.wrapperclass.WrapperClass"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="com.xworkz.medical.dto.MedicalDto"/>
+    <fullyQualifiedTypeName name="com.xworkz.medical.dao.MedicalDao"/>
+    <fullyQualifiedTypeName name="com.xworkz.medical.custom.dtoIsNullException"/>
+    <fullyQualifiedTypeName name="com.xworkz.medical.custom.arrayIsNullException"/>
+    <fullyQualifiedTypeName name="com.xworkz.medical.custom.locationIsNotValidException"/>
+    <fullyQualifiedTypeName name="com.xworkz.medical.custom.NameIsNullException"/>
+    <fullyQualifiedTypeName name="com.xworkz.medical.custom.nameIsNotValidException"/>
 </qualifiedTypeNameHistroy>
