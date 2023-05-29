@@ -28,8 +28,6 @@
     <fullyQualifiedTypeName name="com.xworkz.medical.custom.NameIsNullException"/>
     <fullyQualifiedTypeName name="com.xworkz.medical.custom.nameIsNotValidException"/>
     <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
-    <fullyQualifiedTypeName name="lombok.Getter"/>
-    <fullyQualifiedTypeName name="lombok.Setter"/>
     <fullyQualifiedTypeName name="com.xworkz.engine.dto.EngineDto"/>
     <fullyQualifiedTypeName name="com.xworkz.engine.dao.EngineDaoImpl"/>
     <fullyQualifiedTypeName name="com.xworkz.engine.dao.EngineDao"/>
@@ -41,4 +39,14 @@
     <fullyQualifiedTypeName name="com.xworkz.engine.custom.TypeIsNotFoundException"/>
     <fullyQualifiedTypeName name="com.xworkz.engine.custom.PriceIsNotValidException"/>
     <fullyQualifiedTypeName name="com.xworkz.engine.custom.TypeIsNullException"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
+    <fullyQualifiedTypeName name="com.xworkz.car.custom.DtoIsNullException"/>
+    <fullyQualifiedTypeName name="com.xworkz.car.custom.ArrayOutOfBoundException"/>
+    <fullyQualifiedTypeName name="com.xworkz.car.custom.NameIsNullException"/>
+    <fullyQualifiedTypeName name="com.xworkz.car.dto.CarDto"/>
+    <fullyQualifiedTypeName name="com.xworkz.car.dao.CarDao"/>
+    <fullyQualifiedTypeName name="com.xworkz.car.dao.CarImpl"/>
+    <fullyQualifiedTypeName name="com.xworkz.car.custom.PriceIsNotValidException"/>
+    <fullyQualifiedTypeName name="com.xworkz.car.custom.ModelIsNullException"/>
 </qualifiedTypeNameHistroy>
