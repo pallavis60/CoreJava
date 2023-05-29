@@ -22,12 +22,13 @@ public class MedicalDao {
 					}
 
 				}
+			
 			}
 			System.out.println("The given name is not valid");
 			return false;
 		}
 
-		throw new dtoIsNullException();
+		throw new dtoIsNullException("Dto is null");
 	}
 
 	public MedicalDto[] read() throws arrayIsNullException {
@@ -54,9 +55,9 @@ public class MedicalDao {
 				return false;
 
 			}
-			throw new locationIsNotValidException();
+			throw new locationIsNotValidException("location is not valid");
 		}
-		throw new NameIsNullException();
+		throw new NameIsNullException("Name is null");
 
 	}
 
@@ -72,6 +73,6 @@ public class MedicalDao {
 				System.out.println("Name is not deleted");
 			}
 		}
-		throw new nameIsNotValidException();
+		throw new nameIsNotValidException("name is not valid");
 	}
 }

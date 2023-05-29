@@ -25,34 +25,38 @@ public class MedicalRunner {
 
 			obj.save(dto3);
 
-			obj.save(null);
+			
+
+			obj.update("NirmalaMedical", null);
+
+			obj.delete("SR Medical");
+			
+			MedicalDto[] reading = obj.read();
+			for (int i = 0; i < reading.length; i++) {
+				if(reading[i]!=null) {
+				System.out.println(reading[i]);
+				}
+			}
 		} catch (dtoIsNullException e) {
 			e.printStackTrace();
 		}
 
-		try {
-			obj.update("NirmalaMedical", null);
-		} catch (locationIsNotValidException e) {
+		catch (locationIsNotValidException e) {
 			e.printStackTrace();
+			
 		} catch (NameIsNullException e) {
 			e.printStackTrace();
 		}
 
-		try {
-			obj.delete("SR Medical");
-			obj.delete(null);
-		} catch (nameIsNotValidException e) {
+		catch (nameIsNotValidException e) {
 			e.printStackTrace();
 		}
 
-		try {
-			MedicalDto[] reading = obj.read();
-			for (int i = 0; i < reading.length; i++) {
-				System.out.println(reading[i]);
-			}
-		} catch (arrayIsNullException e) {
+		catch (arrayIsNullException e) {
 			e.printStackTrace();
 		}
+		
+		System.out.println("Execution continue.....");
 
 	}
 }

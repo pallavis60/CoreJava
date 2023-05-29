@@ -27,4 +27,18 @@
     <fullyQualifiedTypeName name="com.xworkz.medical.custom.locationIsNotValidException"/>
     <fullyQualifiedTypeName name="com.xworkz.medical.custom.NameIsNullException"/>
     <fullyQualifiedTypeName name="com.xworkz.medical.custom.nameIsNotValidException"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
+    <fullyQualifiedTypeName name="com.xworkz.engine.dto.EngineDto"/>
+    <fullyQualifiedTypeName name="com.xworkz.engine.dao.EngineDaoImpl"/>
+    <fullyQualifiedTypeName name="com.xworkz.engine.dao.EngineDao"/>
+    <fullyQualifiedTypeName name="com.xworkz.engine.custom.arrayOutOfBoundException"/>
+    <fullyQualifiedTypeName name="com.xworkz.engine.custom.dtoIsNullException"/>
+    <fullyQualifiedTypeName name="com.xworkz.engine.custom.ArrayOutOfBoundException"/>
+    <fullyQualifiedTypeName name="com.xworkz.engine.custom.DtoIsNullException"/>
+    <fullyQualifiedTypeName name="com.xworkz.engine.custom.ArrayIsNullException"/>
+    <fullyQualifiedTypeName name="com.xworkz.engine.custom.TypeIsNotFoundException"/>
+    <fullyQualifiedTypeName name="com.xworkz.engine.custom.PriceIsNotValidException"/>
+    <fullyQualifiedTypeName name="com.xworkz.engine.custom.TypeIsNullException"/>
 </qualifiedTypeNameHistroy>
