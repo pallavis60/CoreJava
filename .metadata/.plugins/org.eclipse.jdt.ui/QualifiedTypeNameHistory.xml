@@ -49,4 +49,5 @@
     <fullyQualifiedTypeName name="com.xworkz.car.dao.CarImpl"/>
     <fullyQualifiedTypeName name="com.xworkz.car.custom.PriceIsNotValidException"/>
     <fullyQualifiedTypeName name="com.xworkz.car.custom.ModelIsNullException"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
