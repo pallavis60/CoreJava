@@ -1,4 +1,4 @@
-package com.xworkz.wrapperclass;
+ package com.xworkz.wrapperclass;
 
 public class WrapperClass {
 

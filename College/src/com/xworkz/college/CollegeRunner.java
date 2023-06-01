@@ -57,15 +57,23 @@ public class CollegeRunner {
 		System.out.println(list.set(7, "Rajiv Gandi Univercity"));
 		System.out.println(list.set(8, "Cental Univercity"));
 		System.out.println(list.set(9, "Visvesvaraya Technology"));
+		
+		
+		
+		System.out.println("------------------------------------------------------");
 
 		// toArray() method
-		String[] arry = new String[list.size()];
-		list.toArray(arry);
+		
+	     Object[] array =	list.toArray();
+	    
+	     
+	     for(String arry: list) {
+	    	 System.out.println(arry);
+     }
 
-		for (String clg : arry) {
-			System.out.println(clg);
-		}
-
+	     
+	     System.out.println("--------------------------------------------------");
+		
 		// get() method
 
 		System.out.println(list.get(1));
