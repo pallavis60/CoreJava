@@ -28,7 +28,7 @@ public class InstituteRunner {
 		System.out.println(
 				"------------------------------finde() method-----------------------------------------------------------------");
 
-		LinkedList<InstituteDto> finding = object.find("XWorkz");
+		InstituteDto finding = object.find("XWorkz");
 		System.out.println(finding);
 
 		System.out

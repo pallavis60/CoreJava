@@ -1,5 +1,6 @@
 package com.xworkz.institute.dao;
 
+import java.util.Iterator;
 import java.util.LinkedList;
 
 import com.xworkz.institute.dto.InstituteDto;
@@ -26,12 +27,12 @@ public class InstituteDaoImpl implements InstituteDao {
 	}
 
 	@Override
-	public LinkedList<InstituteDto> find(String name) {
+	public InstituteDto find(String name) {
 		if (name != null) {
 			for (InstituteDto arry : list) {
 				if (arry.getName().equals(name)) {
 					System.out.println("Name is found");
-					return list;
+					return arry;
 				}
 			}
 		}
@@ -57,18 +58,18 @@ public class InstituteDaoImpl implements InstituteDao {
 
 	public boolean delete(String name) {
 		if (name != null) {
-			for (InstituteDto ref : list) {
-				if (ref.getName().equals(name)) {
-					list.remove(ref);
-					System.out.println("Name is deleted");
+			Iterator<InstituteDto> itr = list.iterator();
+			while (itr.hasNext()) {
+				InstituteDto refer = (InstituteDto) itr.next();
+				if (refer.getName().equals(name)) {
+					itr.remove();
+					System.out.println("Value is deleted");
 					return true;
 				}
-
+				System.out.println("Name is not found");
 			}
 		}
-		System.out.println("Name is not deleted");
+		System.out.println("Value is not deleted");
 		return false;
-
 	}
-
 }

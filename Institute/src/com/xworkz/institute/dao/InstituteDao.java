@@ -10,7 +10,7 @@ public interface InstituteDao {
 
 	public LinkedList<InstituteDto> read();
 
-	public LinkedList<InstituteDto> find(String name);
+	public InstituteDto find(String name);
 
 	public boolean update(int fees, String location);
 

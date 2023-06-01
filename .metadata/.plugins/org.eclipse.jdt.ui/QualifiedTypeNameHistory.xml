@@ -54,4 +54,5 @@
     <fullyQualifiedTypeName name="com.xworkz.institute.dao.InstituteDao"/>
     <fullyQualifiedTypeName name="com.xworkz.institute.dao.InstituteDaoImpl"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
 </qualifiedTypeNameHistroy>
