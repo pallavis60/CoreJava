@@ -47,7 +47,6 @@
     <fullyQualifiedTypeName name="com.xworkz.car.dao.CarImpl"/>
     <fullyQualifiedTypeName name="com.xworkz.car.custom.PriceIsNotValidException"/>
     <fullyQualifiedTypeName name="com.xworkz.car.custom.ModelIsNullException"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="lombok.Getter"/>
     <fullyQualifiedTypeName name="lombok.Setter"/>
     <fullyQualifiedTypeName name="com.xworkz.institute.dto.InstituteDto"/>
@@ -55,4 +54,9 @@
     <fullyQualifiedTypeName name="com.xworkz.institute.dao.InstituteDaoImpl"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
+    <fullyQualifiedTypeName name="java.awt.List"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
