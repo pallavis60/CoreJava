@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.xworkz.accessspecifiers.Institute"/>
-    <fullyQualifiedTypeName name="com.xworkz.accessspecifierstwo.College"/>
-    <fullyQualifiedTypeName name="com.xworkz.busproject.Type"/>
-    <fullyQualifiedTypeName name="com.xworkz.bus.constants.Type"/>
-    <fullyQualifiedTypeName name="com.xworkz.classobjectmethods.family.Family"/>
-    <fullyQualifiedTypeName name="com.xworkz.country.countryinfo.Country"/>
     <fullyQualifiedTypeName name="com.xworkz.shop.dto.ShopDto"/>
     <fullyQualifiedTypeName name="com.xworkz.school.dao.SchoolDao"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
@@ -59,4 +53,11 @@
     <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.xworkz.hotel.dao.HotelDao"/>
+    <fullyQualifiedTypeName name="com.xworkz.hotel.dao.HotelDaoImpl"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="com.xworkz.hotel.dto.HotelDto"/>
+    <fullyQualifiedTypeName name="com.xworkz.hotel.service.HotelServiceImpl"/>
+    <fullyQualifiedTypeName name="com.xworkz.hotel.service.HotelService"/>
 </qualifiedTypeNameHistroy>

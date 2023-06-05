@@ -17,3 +17,7 @@ public interface InstituteDao {
 	public boolean delete(String name);
 
 }
+
+
+
+
