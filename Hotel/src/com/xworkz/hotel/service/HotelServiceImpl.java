@@ -1,5 +1,7 @@
 package com.xworkz.hotel.service;
 
+import java.util.HashMap;
+
 import com.xworkz.hotel.dao.HotelDao;
 import com.xworkz.hotel.dao.HotelDaoImpl;
 import com.xworkz.hotel.dto.HotelDto;
@@ -75,6 +77,12 @@ public class HotelServiceImpl implements HotelService {
 		}
 		System.out.println("Key is 0");
 		return false;
+	}
+
+	@Override
+	public HashMap<Integer, HotelDto> read() {
+		
+		return obj.read(); 
 	}
 
 }

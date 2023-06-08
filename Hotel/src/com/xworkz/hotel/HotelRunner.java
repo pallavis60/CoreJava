@@ -1,5 +1,9 @@
 package com.xworkz.hotel;
 
+import java.util.HashMap;
+import java.util.Map.Entry;
+import java.util.Set;
+
 import com.xworkz.hotel.dto.HotelDto;
 import com.xworkz.hotel.service.HotelService;
 import com.xworkz.hotel.service.HotelServiceImpl;
@@ -37,6 +41,17 @@ public class HotelRunner {
 
 		boolean result = object.delete(4);
 		System.out.println(result);
+
+		System.out.println(
+				"----------------------------------------------------------------------------------------------------------");
+		HashMap<Integer, HotelDto> dto = object.read();
+
+		Set<Entry<Integer, HotelDto>> obj = dto.entrySet();
+
+		for (Entry<Integer, HotelDto> integer : obj) {
+			System.out.println(integer);
+
+		}
 
 	}
 }

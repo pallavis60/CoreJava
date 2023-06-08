@@ -1,5 +1,7 @@
 package com.xworkz.hotel.service;
 
+import java.util.HashMap;
+
 import com.xworkz.hotel.dto.HotelDto;
 
 public interface HotelService {
@@ -11,5 +13,7 @@ public interface HotelService {
 	public boolean update(Integer key, String name);
 
 	public boolean delete(Integer key);
+	
+	public HashMap<Integer,HotelDto> read();
 
 }

@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 import com.xworkz.hotel.dto.HotelDto;
 
-public class HotelDaoImpl implements HotelDao {
+public  class HotelDaoImpl implements HotelDao {
 
 	HashMap<Integer, HotelDto> map = new HashMap<Integer, HotelDto>();
 
@@ -35,6 +35,12 @@ public class HotelDaoImpl implements HotelDao {
 		System.out.println("Key is deleted");
 		System.out.println(map.get(key));
 		return true;
+	}
+
+	@Override
+	public HashMap<Integer, HotelDto> read() {
+		
+		return map;
 	}
 
 }

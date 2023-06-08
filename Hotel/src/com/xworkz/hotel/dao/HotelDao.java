@@ -1,5 +1,7 @@
 package com.xworkz.hotel.dao;
 
+import java.util.HashMap;
+
 import com.xworkz.hotel.dto.HotelDto;
 
 public interface HotelDao {
@@ -11,5 +13,7 @@ public interface HotelDao {
 	public boolean update(Integer key, String name);
 
 	public boolean delete(Integer key);
+	
+	public HashMap<Integer,HotelDto> read();
 
 }
