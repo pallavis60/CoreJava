@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.xworkz.computer.dao.ComputerDao"/>
-    <fullyQualifiedTypeName name="com.xworkz.computer.dto.ComputerDto"/>
-    <fullyQualifiedTypeName name="com.xworkz.computer.dto.ProcessorDto"/>
-    <fullyQualifiedTypeName name="com.xworkz.accessmodifierstwo.Car"/>
-    <fullyQualifiedTypeName name="com.xworkz.wrapperclass.WrapperClass"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="com.xworkz.medical.dto.MedicalDto"/>
     <fullyQualifiedTypeName name="com.xworkz.medical.dao.MedicalDao"/>
     <fullyQualifiedTypeName name="com.xworkz.medical.custom.dtoIsNullException"/>
@@ -51,13 +45,19 @@
     <fullyQualifiedTypeName name="com.xworkz.hotel.service.HotelService"/>
     <fullyQualifiedTypeName name="com.xworkz.hashmap.HashMap"/>
     <fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
-    <fullyQualifiedTypeName name="java.util.Comparator"/>
-    <fullyQualifiedTypeName name="java.util.HashMap"/>
-    <fullyQualifiedTypeName name="java.util.Collection"/>
-    <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="com.xworkz.comparable.dto.BusDto"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="com.xworkz.student.dao.StudentDao"/>
+    <fullyQualifiedTypeName name="com.xworkz.student.dao.StudentDaoImpl"/>
+    <fullyQualifiedTypeName name="com.xworkz.student.service.StudentService"/>
+    <fullyQualifiedTypeName name="com.xworkz.student.service.StudentServiceImpl"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.xworkz.student.dto.StudentDto"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
 </qualifiedTypeNameHistroy>

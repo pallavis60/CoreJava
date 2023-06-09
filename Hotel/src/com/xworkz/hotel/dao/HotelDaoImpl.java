@@ -39,7 +39,6 @@ public  class HotelDaoImpl implements HotelDao {
 
 	@Override
 	public HashMap<Integer, HotelDto> read() {
-		
 		return map;
 	}
 
