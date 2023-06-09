@@ -52,6 +52,12 @@ public class HotelRunner {
 			System.out.println(integer);
 
 		}
+//		Set<Integer> ref = dto.keySet();
+//		for (Integer hotelDto : ref) {
+//			System.out.println(dto.get(hotelDto));
+//		}
+//		
+		
 
 	}
 }

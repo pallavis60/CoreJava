@@ -1,7 +1,8 @@
 package com.xworkz.comparator;
 
 import java.util.ArrayList;
-
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Comparator;
 
 public class City {
@@ -57,8 +58,8 @@ public class City {
 
 		};
 
-		// list.sort(obj);
-		list.sort(obj2);
+		Collections.sort(list, obj);
+		//Collections.sort(list);
 		for (String ref : list) {
 			System.out.println(ref);
 		}

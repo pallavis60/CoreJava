@@ -1,6 +1,7 @@
 package com.xworkz.hashmap;
 
 import java.util.LinkedHashMap;
+import java.util.Set;
 import java.util.TreeMap;
 
 public class HashMap {
@@ -33,6 +34,15 @@ public class HashMap {
 
 //size() method
 		System.out.println(map.size());
+		
+		System.out.println("============================================");
+		
+				Set<Integer> obj1	=	map.keySet();
+				
+				for(Integer value : obj1 ) {
+					System.out.println(map.get(value));
+				}
+		System.out.println("=============================================");
 
 		TreeMap<Integer, String> map2 = new TreeMap<Integer, String>();
 
@@ -57,6 +67,15 @@ public class HashMap {
 //pollFirstEntry() method	
 
 		System.out.println(map2.pollFirstEntry());
+		
+		System.out.println("--------------------------------------------------------------");
+		
+		Set<Integer> obj3 = map.keySet();
+		for(Integer value2 : obj3) {
+			System.out.println(map.get(value2));
+		}
+		
+		
 
 	}
 
