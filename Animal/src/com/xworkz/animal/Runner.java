@@ -2,12 +2,15 @@ package com.xworkz.animal;
 
 import java.util.HashSet;
 import java.util.LinkedHashSet;
+import java.util.LinkedList;
+import java.util.List;
 
 public class Runner {
 
 	public static void main(String[] args) {
 		
 		HashSet<String> name = new HashSet<String>();
+	
 		
 		name.add("Dog");
 		name.add("Cat");
@@ -32,7 +35,8 @@ public class Runner {
 		for(String arry : names) {
 			System.out.println(arry);
 		}
-
+		
+		
 	}
 
 }

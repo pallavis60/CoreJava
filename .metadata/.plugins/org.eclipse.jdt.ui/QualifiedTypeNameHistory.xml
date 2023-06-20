@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.xworkz.medical.custom.NameIsNullException"/>
-    <fullyQualifiedTypeName name="com.xworkz.medical.custom.nameIsNotValidException"/>
-    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
-    <fullyQualifiedTypeName name="com.xworkz.engine.dto.EngineDto"/>
-    <fullyQualifiedTypeName name="com.xworkz.engine.dao.EngineDaoImpl"/>
-    <fullyQualifiedTypeName name="com.xworkz.engine.dao.EngineDao"/>
-    <fullyQualifiedTypeName name="com.xworkz.engine.custom.arrayOutOfBoundException"/>
-    <fullyQualifiedTypeName name="com.xworkz.engine.custom.dtoIsNullException"/>
-    <fullyQualifiedTypeName name="com.xworkz.engine.custom.ArrayOutOfBoundException"/>
-    <fullyQualifiedTypeName name="com.xworkz.engine.custom.DtoIsNullException"/>
-    <fullyQualifiedTypeName name="com.xworkz.engine.custom.ArrayIsNullException"/>
     <fullyQualifiedTypeName name="com.xworkz.engine.custom.TypeIsNotFoundException"/>
     <fullyQualifiedTypeName name="com.xworkz.engine.custom.PriceIsNotValidException"/>
     <fullyQualifiedTypeName name="com.xworkz.engine.custom.TypeIsNullException"/>
@@ -27,7 +16,6 @@
     <fullyQualifiedTypeName name="com.xworkz.institute.dto.InstituteDto"/>
     <fullyQualifiedTypeName name="com.xworkz.institute.dao.InstituteDao"/>
     <fullyQualifiedTypeName name="com.xworkz.institute.dao.InstituteDaoImpl"/>
-    <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
     <fullyQualifiedTypeName name="java.awt.List"/>
@@ -48,10 +36,7 @@
     <fullyQualifiedTypeName name="java.lang.Comparable"/>
     <fullyQualifiedTypeName name="com.xworkz.student.dto.StudentDto"/>
     <fullyQualifiedTypeName name="java.util.Collection"/>
-    <fullyQualifiedTypeName name="java.util.HashMap"/>
-    <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="jdk.internal.vm.compiler.collections.MapCursor"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="com.xworkz.electronics.utill.PriceComparator"/>
@@ -60,4 +45,19 @@
     <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="com.xworkz.electronics.dto.ElectronicsDto"/>
     <fullyQualifiedTypeName name="com.xworkz.electronics.utill.WarrantyComparator"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="com.xworkz.television.service.TelevisionServiceImpl"/>
+    <fullyQualifiedTypeName name="com.xworkz.television.service.TelevisionService"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="com.xworkz.television.dto.TelevisionDto"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="com.sun.jdi.connect.spi.Connection"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.Statement"/>
+    <fullyQualifiedTypeName name="java.sql.Driver"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
 </qualifiedTypeNameHistroy>
