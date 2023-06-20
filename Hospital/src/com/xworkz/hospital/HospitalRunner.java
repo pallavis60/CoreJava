@@ -6,7 +6,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class HospitalRunner {
-
+  
 	public static void main(String[] args) {
 
 		try {
@@ -25,6 +25,8 @@ public class HospitalRunner {
 
 			// Writing query
 			String quary = "insert into hospital_info values(20,'GreenCityHospital','Banglore',656676,'Akash',2021,18,16,19,12)";
+			//String quary ="Update quary "
+			//String quary ="delete quary"
 
 			// create statment object
 			Statement statment = connect.createStatement();
@@ -44,3 +46,6 @@ public class HospitalRunner {
 	}
 
 }
+
+
+//

@@ -34,6 +34,8 @@
 <item elementID="=bank" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=electronic" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Nations" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=indeed" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Avatar" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1680262140777_2" label="Window Working Set" name="Aggregate for window 1680262140776"/>
 <mruList name="Jdbc"/>

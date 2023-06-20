@@ -1,16 +1,13 @@
-package com.xworkz.electronic;
+package com.xworkz.avatar;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import com.sun.jdi.connect.Connector;
-
-public class Runner {
+public class UpdateRunner {
 
 	public static void main(String[] args) {
-
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 		} catch (ClassNotFoundException e) {
@@ -19,26 +16,26 @@ public class Runner {
 		}
 
 		try {
-			Connection connector = DriverManager.getConnection("jdbc:mysql://localhost:3306/electronic", "root",
+			Connection connect = DriverManager.getConnection("jdbc:mysql://localhost:3306/avatar", "root",
 					"Xworkzodc@123");
-			System.out.println(connector);
+			System.out.println(connect);
+			System.out.println("Database is connected");
 
-			String quary = "insert into electronics_items values(20,'DishWasher',11500,'3years','23 april','silver','6kg',4000,119,'8709878788')";
+			String quary = "Update avatar_info set  age=60 where id=4";
 
-			Statement statment = connector.createStatement();
+			Statement statment = connect.createStatement();
 
 			int value = statment.executeUpdate(quary);
+			System.out.println("Update row: " + value);
 
-			System.out.println("Effected row:" + value);
-			
-			connector.close();
+			connect.close();
+
+			System.out.println("Connection closed");
 
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
-		
 
 	}
 

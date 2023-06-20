@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.xworkz.engine.custom.TypeIsNotFoundException"/>
-    <fullyQualifiedTypeName name="com.xworkz.engine.custom.PriceIsNotValidException"/>
-    <fullyQualifiedTypeName name="com.xworkz.engine.custom.TypeIsNullException"/>
-    <fullyQualifiedTypeName name="com.xworkz.car.custom.DtoIsNullException"/>
     <fullyQualifiedTypeName name="com.xworkz.car.custom.ArrayOutOfBoundException"/>
     <fullyQualifiedTypeName name="com.xworkz.car.custom.NameIsNullException"/>
     <fullyQualifiedTypeName name="com.xworkz.car.dto.CarDto"/>
@@ -58,6 +54,10 @@
     <fullyQualifiedTypeName name="com.sun.jdi.connect.spi.Connection"/>
     <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.Statement"/>
     <fullyQualifiedTypeName name="java.sql.Driver"/>
+    <fullyQualifiedTypeName name="com.sun.jdi.connect.Connector"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.protocol.ResultStreamer"/>
+    <fullyQualifiedTypeName name="com.sun.source.tree.StatementTree"/>
     <fullyQualifiedTypeName name="java.sql.DriverManager"/>
     <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
 </qualifiedTypeNameHistroy>
