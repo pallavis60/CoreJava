@@ -10,6 +10,6 @@
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1686930767934_5" label="Jdbc" name="Jdbc"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1680262140777_2" label="Window Working Set" name="Aggregate for window 1680262140776"/>
 <mruList name="AdvanceJava"/>
-<mruList name="Jdbc"/>
 <mruList name="Test"/>
+<mruList name="Jdbc"/>
 </workingSetManager>
