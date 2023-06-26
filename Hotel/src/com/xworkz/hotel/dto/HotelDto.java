@@ -1,12 +1,6 @@
 package com.xworkz.hotel.dto;
 
-public class HotelDto {
 
-	private String name;
-	private String location;
-	private int noOfRooms;
-	private String color;
-	private int rate;
 
 	public HotelDto(String name, String location, int noOfRooms, String color, int rate) {
 		super();
@@ -64,3 +58,5 @@ public class HotelDto {
 	}
 
 }
+
+
