@@ -11973,3 +11973,21 @@ java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-22 11:49:32.998
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.core.resources 2 2 2023-06-27 14:59:46.255
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2023-06-27 14:59:46.255
+!MESSAGE The project description file (.project) for 'eventOrganization' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2023-06-27 14:59:46.255
+!MESSAGE The project description file (.project) for 'facebook' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2023-06-27 14:59:46.255
+!MESSAGE The project description file (.project) for 'linkedIn' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-27 14:59:47.391
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-27 14:59:47.411
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-27 14:59:47.434
+!MESSAGE The POM for org.apache.maven.plugins:maven-compiler-plugin:jar:$() is missing, no dependency information available
